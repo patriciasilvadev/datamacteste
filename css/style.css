@@ -1192,6 +1192,13 @@ a:focus {
     display: flex;
     flex-direction: column;
 }
+.card-body a {
+    color: #000000;
+}
+.card-body a:hover {
+    color: #00acee;
+}
+
 
 
 /*******************************/
@@ -1388,6 +1395,7 @@ a:focus {
 .blog .blog-text {
     padding: 10px 25px 25px 25px;
     background: #f3f6ff;
+    height: 170px;
 }
 
 .blog .blog-text p {
@@ -2005,7 +2013,7 @@ a:focus {
 }
 
 .contact .col-md-6:last-child {
-    background: #fdbe33;
+    background: #e30b21;
 }
 
 .contact .contact-info {
@@ -2097,7 +2105,7 @@ a:focus {
     padding: 16px 30px;
     font-size: 16px;
     font-weight: 600;
-    color: #fdbe33;
+    color: #ffffff;
     background: #020873;
     border: none;
     border-radius: 0;
