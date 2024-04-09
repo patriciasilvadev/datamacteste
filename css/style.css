@@ -2124,6 +2124,23 @@ a:focus {
 }
 
 
+@media (max-width: 768px) {
+     iframe {
+        width: 300px;
+    }
+}
+@media (min-width: 901px) and (max-width: 991px) {
+    iframe {
+       width: 290px;
+   }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    iframe {
+       width: 400px;
+   }
+}
+
+
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
@@ -2315,4 +2332,35 @@ a:focus {
         gap: 10px;
     }
 }
+.pulse {
+    animation: pulse 0.5s infinite;
+    margin: 0 auto;
+    display: table;
+    
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.2);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.2);
+      filter: brightness(200%);
+    }
+  }
 
